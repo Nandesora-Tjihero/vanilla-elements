@@ -1,13 +1,13 @@
 (() => {
 /**
- * Premium Carousel Web Component
+ * Ombujoweb Carousel Web Component
  * A highly customizable, accessible, and visually stunning carousel.
  *
  * Usage:
- * <premium-carousel autoplay="true" interval="5000">
+ * <ombujoweb-carousel autoplay="true" interval="5000">
  *   <div slot="slide">Content 1</div>
  *   <div slot="slide">Content 2</div>
- * </premium-carousel>
+ * </ombujoweb-carousel>
  */
 
 const template = document.createElement("template");
@@ -161,7 +161,7 @@ template.innerHTML = `
   <div class="overlay"></div>
 `;
 
-class PremiumCarousel extends HTMLElement {
+class OmbujowebCarousel extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
@@ -394,5 +394,5 @@ class PremiumCarousel extends HTMLElement {
   }
 }
 
-customElements.define("premium-carousel", PremiumCarousel);
+customElements.define("ombujoweb-carousel", OmbujowebCarousel);
 })();
