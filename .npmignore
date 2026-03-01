@@ -1,0 +1,5 @@
+# Exclude dev/demo files from the npm publish
+index.html
+.github/
+.gitattributes
+.DS_Store
