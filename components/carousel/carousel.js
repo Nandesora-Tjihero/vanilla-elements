@@ -16,7 +16,7 @@ template.innerHTML = `
     :host {
       --carousel-bg: #fff;
       --carousel-indicator-color: rgba(255, 255, 255, 0.5);
-      --carousel-indicator-active-color: #fff;
+      --carousel-indicator-active-color: #d42626ff;
       --carousel-arrow-color: #fff;
       --carousel-arrow-bg: rgba(0, 0, 0, 0.3);
       --carousel-arrow-hover-bg: rgba(0, 0, 0, 0.5);
