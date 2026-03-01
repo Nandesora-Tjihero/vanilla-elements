@@ -1,7 +1,8 @@
 {
-  "name": "vanilla-elements",
-  "version": "1.0.0",
-  "description": "A collection of highly customizable, zero-dependency Web Components built with pure Vanilla JS.",
+  "name": "@ombujoweb/vanilla-elements",
+  "version": "1.0.1",
+  "description": "A collection of highly customizable, zero-dependency Web Components built with pure Web Standards.",
+  "type": "module",
   "keywords": [
     "web-components",
     "custom-elements",
@@ -25,10 +26,7 @@
     "components/**/*.js",
     "README.md"
   ],
-  "exports": {
-    "./carousel": "./components/carousel/carousel.js"
-  },
-  "sideEffects": [
-    "components/**/*.js"
-  ]
+  "sideEffects": true,
+  "main": "components/carousel/carousel.js",
+  "unpkg": "components/carousel/carousel.js"
 }
