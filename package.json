@@ -1,6 +1,6 @@
 {
   "name": "@ombujoweb/vanilla-elements",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A collection of highly customizable, zero-dependency Web Components built with pure Web Standards.",
   "type": "module",
   "keywords": [
