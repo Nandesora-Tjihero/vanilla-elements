@@ -4,10 +4,10 @@
  * A highly customizable, accessible, and visually stunning carousel.
  *
  * Usage:
- * <ombujoweb-carousel autoplay="true" interval="5000">
+ * <premium-carousel autoplay="true" interval="5000">
  *   <div slot="slide">Content 1</div>
  *   <div slot="slide">Content 2</div>
- * </ombujoweb-carousel>
+ * </premium-carousel>
  */
 
 const template = document.createElement("template");
@@ -16,7 +16,7 @@ template.innerHTML = `
     :host {
       --carousel-bg: #fff;
       --carousel-indicator-color: rgba(255, 255, 255, 0.5);
-      --carousel-indicator-active-color: #d42626ff;
+      --carousel-indicator-active-color: #fff;
       --carousel-arrow-color: #fff;
       --carousel-arrow-bg: rgba(0, 0, 0, 0.3);
       --carousel-arrow-hover-bg: rgba(0, 0, 0, 0.5);
